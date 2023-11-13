@@ -1,5 +1,7 @@
 # Installing Power BI on M1/M2 Macbook with VMware Fusion
 
+![step5_screenshot_15](./imgs/s15.png)
+
 ### M1/M2 chips 
 
 - The Apple M1 and M2 chips, used in MacBooks and other Apple devices, are based on the ARM architecture. They are not x86 chips. Both the M1 and M2 chips are 64-bit processors.
