@@ -65,10 +65,19 @@
 
     ![step3_screenshot_11](./imgs/s11.png)
 
+    - **Note** sometimes the network adapters are not working correctly (found on macbook air). Windows setup page requires us to connect to the network. We can bypass this requirment by entering into the command prompt with fn + shift + f10 key. Then typing the command "OOBE\BYPASSNRO"
+
+    ![step3_screenshot_11a](./imgs/s11a.jpeg)
+    ![step3_screenshot_11b](./imgs/s11b.jpeg)
+
 4) Install VMware tools:
     - In the dropdown menu under "Virtual machine" select "install VMware tools". This will allow you to copy and paste as well as drag and drop files from mac to vm (you will need to restart afterwards).
 
     ![step4_screenshot_12](./imgs/s12.png)
+
+    - Make sure network adapter is connected (click connect and make sure in the settings it is green)
+
+    - **Note** I noticed it took a while for the copy paste / drag and drop to work. Try to and from mac you may need to restart again and fiddle with it a bit.
 
 5) Install Power BI:
     - Download the x86 32 bit version of [Power BI](https://powerbi.microsoft.com/en-us/downloads/) from [here](https://www.microsoft.com/en-us/download/details.aspx?id=58494).The 64 bit version will fail on install, dont use it.
@@ -86,9 +95,5 @@
 
 ## Working as of:
 Date: 2023-11-12
-
-Device: MacBook Pro 14-inch, 2023
-
-Chip: Apple M2 Pro 
-
-OS: Ventura 13.5.1
+- MacBook Pro 14-inch, 2023 Apple M2, Ventura 13.5.1
+- MacBook Air 13-inch, 2020 Apple M1, Big Sur 11.7
